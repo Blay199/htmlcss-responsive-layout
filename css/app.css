@@ -17,6 +17,12 @@ a {
     color: inherit;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
 .row {
     display: flex;
     flex-wrap: wrap;    
@@ -61,4 +67,23 @@ header {
     color: black;
     border-radius: 15px;
     padding: 8px;
+}
+
+.col_2 {
+    background-color: #B5DDFF;
+    flex-basis: calc(100% * 2 / 5);
+    flex-direction: column;
+}
+
+.phone {
+    align-self: flex-end;
+    margin-left: 80px;
+}
+
+.col_2 a {
+    background-color: #0084fd;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 10px;
+    text-align: center;
 }
