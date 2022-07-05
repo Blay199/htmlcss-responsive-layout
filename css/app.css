@@ -42,6 +42,7 @@ header {
     background-color: #0084fd;
     height: 4.75em;
     color: white;
+    margin-bottom: 50px;
 }
 
 .main-header {
@@ -70,14 +71,15 @@ header {
 }
 
 .col_2 {
+    padding: 25px;
+    border-radius: 15px;
     background-color: #B5DDFF;
-    flex-basis: calc(100% * 2 / 5);
     flex-direction: column;
+    gap: 30px;
 }
 
 .phone {
     align-self: flex-end;
-    margin-left: 80px;
 }
 
 .col_2 a {
